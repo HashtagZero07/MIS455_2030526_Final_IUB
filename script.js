@@ -18,7 +18,6 @@ function displayWeather(data) {
     const temperature = document.getElementById('temperature');
     const description = document.getElementById('weatherDescription');
 
-    // Convert temperature from Kelvin to Celsius
     const celsiusTemperature = data.main.temp - 273.15;
 
     temperature.textContent = `${celsiusTemperature.toFixed(2)} °C`;
