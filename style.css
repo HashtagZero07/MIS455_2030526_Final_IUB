@@ -1,0 +1,33 @@
+header{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchInput{
+
+    display: block;
+    padding: 20px;
+
+}
+
+.searchButton{
+
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 5px;
+    border: .5px solid black;
+    border-radius: 5px;
+    box-shadow: 10px grey;
+}
